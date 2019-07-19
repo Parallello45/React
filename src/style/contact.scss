@@ -1,0 +1,24 @@
+.contact-page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 84px);
+
+    .contact-information-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .contact-info {
+            font-size: 4em;
+            color: $charcoal;
+            padding: 40px 0px;
+            display: flex;
+
+            .icon {
+                color: $teal;
+                padding-right: 20px;
+            }
+        }
+    }
+}

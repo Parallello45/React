@@ -1,0 +1,57 @@
+.portfolio-details-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 290px 100px;
+
+    .top-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .top-row-item-left {
+            display: flex;
+            align-items: flex-end;
+            margin-left: 35px;
+            color: $teal;
+            font-size: 1.5em;
+            letter-spacing: 2px;
+        }
+
+        .top-row-item-center {
+            display: flex;
+            justify-content: center;
+            color: $dark-teal;
+            align-items: flex-end;
+        }
+
+        .logo {
+            display: grid;
+            justify-content: flex-end;
+        
+            img {
+                background-color: $charcoal;
+                height: 70px;
+                border-radius: 10px;
+                padding: 10px;
+                margin-right: 35px;
+            }
+        }
+    }
+
+    .banner-image {
+        display: flex;
+        justify-content: center;
+    
+        img {
+            width: 95%;
+            height: 100%;
+            border-radius: 5px;
+        }
+    }
+
+    .description {
+        display: flex;
+        justify-content: center;
+        padding: 10px 35px;
+        font-size: 1.5em;
+    }
+}

@@ -1,0 +1,15 @@
+.about-page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 84px);
+
+    .bio-column {
+        display: flex;
+        padding: 0px 40px;
+        flex-direction: column;
+
+        h1 {
+            color: $teal;
+        }
+    }
+}

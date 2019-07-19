@@ -1,0 +1,28 @@
+.rdw-editor-toolbar {
+    border: 1px solid #f1f1f1;
+    margin: 0px;
+    border-radius: 3px;
+}
+
+.DraftEditor-root {
+    border: 1px solid #f1f1f1;
+    padding: 20px;
+    border-radius: 3px;
+    transition: 0.2s ease-in-out;
+
+    &:active, &:focus {
+        border: 1px solid $teal;
+    }
+}
+
+.rdw-image-modal {
+    left: -215px;
+}
+
+.rdw-emoji-modal {
+    left: -169px;
+}
+
+.rdw-embedded-modal {
+    left: -124px;
+}
